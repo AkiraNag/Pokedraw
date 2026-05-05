@@ -7,15 +7,19 @@ final class DrawingStore {
     var entries: [String: DrawingEntry] = [:]
     var shinyEntries: [String: DrawingEntry] = [:]
 
+    var pendingDraw: PendingDraw? = nil
+
     private let storageURL: URL
     private let shinyStorageURL: URL
+    private let pendingURL: URL
     private let imagesDir: URL
 
     init() {
         let docs = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)[0]
-        storageURL = docs.appendingPathComponent("drawings.json")
+        storageURL    = docs.appendingPathComponent("drawings.json")
         shinyStorageURL = docs.appendingPathComponent("drawings_shiny.json")
-        imagesDir = docs.appendingPathComponent("drawings_images")
+        pendingURL    = docs.appendingPathComponent("pending_draw.json")
+        imagesDir     = docs.appendingPathComponent("drawings_images")
         try? FileManager.default.createDirectory(at: imagesDir, withIntermediateDirectories: true)
         load()
     }
@@ -50,6 +54,16 @@ final class DrawingStore {
         persist()
     }
 
+    func savePending(_ draw: PendingDraw) {
+        pendingDraw = draw
+        if let d = try? JSONEncoder().encode(draw) { try? d.write(to: pendingURL) }
+    }
+
+    func clearPending() {
+        pendingDraw = nil
+        try? FileManager.default.removeItem(at: pendingURL)
+    }
+
     func deleteEntry(pokemonId: String, isShiny: Bool) {
         if isShiny { shinyEntries.removeValue(forKey: pokemonId) }
         else        { entries.removeValue(forKey: pokemonId) }
@@ -71,6 +85,10 @@ final class DrawingStore {
         if let data = try? Data(contentsOf: shinyStorageURL),
            let dec  = try? JSONDecoder().decode([String: DrawingEntry].self, from: data) {
             shinyEntries = dec
+        }
+        if let data = try? Data(contentsOf: pendingURL),
+           let dec  = try? JSONDecoder().decode(PendingDraw.self, from: data) {
+            pendingDraw = dec
         }
     }
 

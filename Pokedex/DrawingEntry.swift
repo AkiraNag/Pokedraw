@@ -6,3 +6,8 @@ struct DrawingEntry: Codable {
     var hasImage: Bool
     var dateDrawn: Date
 }
+
+struct PendingDraw: Codable {
+    var pokemonId: String
+    var isShiny: Bool
+}
