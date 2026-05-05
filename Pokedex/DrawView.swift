@@ -367,9 +367,6 @@ struct DrawView: View {
                 }
                 .onChange(of: selectedPhoto) { loadPhoto() }
 
-                Button("Salvar sem foto") { saveEntry() }
-                    .font(.caption)
-                    .foregroundStyle(Color.white.opacity(0.25))
             }
         }
     }
