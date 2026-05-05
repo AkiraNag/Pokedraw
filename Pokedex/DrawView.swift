@@ -80,6 +80,7 @@ struct DrawView: View {
                 .padding(.bottom, 40)
             }
         }
+        .onAppear { restorePendingIfNeeded() }
     }
 
     // MARK: - Header
@@ -266,8 +267,8 @@ struct DrawView: View {
                     .onTapGesture { withAnimation(.spring(response: 0.25)) { chosenIndex = i } }
             }
 
-            if chosenIndex != nil {
-                Button(action: { withAnimation { isConfirmed = true } }) {
+            if let i = chosenIndex {
+                Button(action: { confirmResult(at: i) }) {
                     HStack(spacing: 10) {
                         Image(systemName: "checkmark.circle.fill").font(.body.bold())
                         Text("Confirmar este Pokémon").fontWeight(.bold)
@@ -366,9 +367,6 @@ struct DrawView: View {
                 }
                 .onChange(of: selectedPhoto) { loadPhoto() }
 
-                Button("Salvar sem foto") { saveEntry() }
-                    .font(.caption)
-                    .foregroundStyle(Color.white.opacity(0.25))
             }
         }
     }
@@ -428,8 +426,25 @@ struct DrawView: View {
     // MARK: - Logic
 
     private func chooseCurrent() {
-        chosenIndex = history.count - 1
+        confirmResult(at: history.count - 1)
+    }
+
+    private func confirmResult(at index: Int) {
+        guard history.indices.contains(index) else { return }
+        chosenIndex = index
+        store.savePending(PendingDraw(pokemonId: history[index].pokemon.id,
+                                     isShiny: history[index].isShiny))
         withAnimation { isConfirmed = true }
+    }
+
+    private func restorePendingIfNeeded() {
+        guard !isConfirmed, !isSaved,
+              let pending = store.pendingDraw,
+              let pokemon = PokemonData.byId[pending.pokemonId]
+        else { return }
+        history     = [DrawnResult(drawNumber: 1, pokemon: pokemon, isShiny: pending.isShiny)]
+        chosenIndex = 0
+        isConfirmed = true
     }
 
     private func draw() {
@@ -453,17 +468,19 @@ struct DrawView: View {
         guard let r = confirmedResult else { return }
         let data = uploadedImage.flatMap { $0.jpegData(compressionQuality: 0.85) }
         store.save(pokemonId: r.pokemon.id, isShiny: r.isShiny, imageData: data)
+        store.clearPending()
         withAnimation { isSaved = true }
     }
 
     private func reset() {
-        history        = []
+        store.clearPending()
+        history         = []
         isChoosingPhase = false
-        chosenIndex    = nil
-        isConfirmed    = false
-        selectedPhoto  = nil
-        uploadedImage  = nil
-        isSaved        = false
+        chosenIndex     = nil
+        isConfirmed     = false
+        selectedPhoto   = nil
+        uploadedImage   = nil
+        isSaved         = false
     }
 }
 
