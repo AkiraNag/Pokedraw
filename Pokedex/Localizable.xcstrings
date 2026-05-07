@@ -1,477 +1,1773 @@
 {
   "sourceLanguage" : "pt-BR",
   "strings" : {
-    "%lld Pokémon disponíveis" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de-DE" : { "stringUnit" : { "state" : "translated", "value" : "%lld Pokémon verfügbar" } },
-        "en-US" : { "stringUnit" : { "state" : "translated", "value" : "%lld Pokémon available" } },
-        "es-MX" : { "stringUnit" : { "state" : "translated", "value" : "%lld Pokémon disponibles" } },
-        "fr-FR" : { "stringUnit" : { "state" : "translated", "value" : "%lld Pokémon disponibles" } },
-        "it"    : { "stringUnit" : { "state" : "translated", "value" : "%lld Pokémon disponibili" } },
-        "ja"    : { "stringUnit" : { "state" : "translated", "value" : "%lld 種のポケモン" } }
-      }
+    "#%@" : {
+
     },
-    "%lld de %lld sorteios realizados" : {
+    "#%@ salvo!" : {
       "extractionState" : "manual",
       "localizations" : {
-        "de-DE" : { "stringUnit" : { "state" : "translated", "value" : "%1$lld von %2$lld Zügen" } },
-        "en-US" : { "stringUnit" : { "state" : "translated", "value" : "%1$lld of %2$lld draws" } },
-        "es-MX" : { "stringUnit" : { "state" : "translated", "value" : "%1$lld de %2$lld sorteos" } },
-        "fr-FR" : { "stringUnit" : { "state" : "translated", "value" : "%1$lld sur %2$lld tirages" } },
-        "it"    : { "stringUnit" : { "state" : "translated", "value" : "%1$lld di %2$lld sorteggi" } },
-        "ja"    : { "stringUnit" : { "state" : "translated", "value" : "%2$lld 回中 %1$lld 回抽選済み" } }
+        "de-DE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "#%@ gespeichert!"
+          }
+        },
+        "en-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "#%@ saved!"
+          }
+        },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¡#%@ guardado!"
+          }
+        },
+        "fr-FR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "#%@ enregistré !"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "#%@ salvato!"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "#%@ 保存完了！"
+          }
+        }
       }
     },
     "%lld de %lld desenhados" : {
       "extractionState" : "manual",
       "localizations" : {
-        "de-DE" : { "stringUnit" : { "state" : "translated", "value" : "%1$lld von %2$lld gezeichnet" } },
-        "en-US" : { "stringUnit" : { "state" : "translated", "value" : "%1$lld of %2$lld drawn" } },
-        "es-MX" : { "stringUnit" : { "state" : "translated", "value" : "%1$lld de %2$lld dibujados" } },
-        "fr-FR" : { "stringUnit" : { "state" : "translated", "value" : "%1$lld sur %2$lld dessinés" } },
-        "it"    : { "stringUnit" : { "state" : "translated", "value" : "%1$lld di %2$lld disegnati" } },
-        "ja"    : { "stringUnit" : { "state" : "translated", "value" : "%2$lld 匹中 %1$lld 匹完成" } }
+        "de-DE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld von %2$lld gezeichnet"
+          }
+        },
+        "en-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld of %2$lld drawn"
+          }
+        },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld de %2$lld dibujados"
+          }
+        },
+        "fr-FR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld sur %2$lld dessinés"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld di %2$lld disegnati"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%2$lld 匹中 %1$lld 匹完成"
+          }
+        }
       }
     },
-    "Ver sorteios anteriores (%lld)" : {
+    "%lld de %lld sorteios realizados" : {
       "extractionState" : "manual",
       "localizations" : {
-        "de-DE" : { "stringUnit" : { "state" : "translated", "value" : "Frühere Züge (%lld)" } },
-        "en-US" : { "stringUnit" : { "state" : "translated", "value" : "See previous draws (%lld)" } },
-        "es-MX" : { "stringUnit" : { "state" : "translated", "value" : "Ver sorteos anteriores (%lld)" } },
-        "fr-FR" : { "stringUnit" : { "state" : "translated", "value" : "Tirages précédents (%lld)" } },
-        "it"    : { "stringUnit" : { "state" : "translated", "value" : "Sorteggi precedenti (%lld)" } },
-        "ja"    : { "stringUnit" : { "state" : "translated", "value" : "過去の抽選（%lld）" } }
+        "de-DE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld von %2$lld Zügen"
+          }
+        },
+        "en-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld of %2$lld draws"
+          }
+        },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld de %2$lld sorteos"
+          }
+        },
+        "fr-FR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld sur %2$lld tirages"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld di %2$lld sorteggi"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%2$lld 回中 %1$lld 回抽選済み"
+          }
+        }
       }
     },
-    "Sorteio %lld" : {
+    "%lld Pokémon disponíveis" : {
       "extractionState" : "manual",
       "localizations" : {
-        "de-DE" : { "stringUnit" : { "state" : "translated", "value" : "Zug %lld" } },
-        "en-US" : { "stringUnit" : { "state" : "translated", "value" : "Draw %lld" } },
-        "es-MX" : { "stringUnit" : { "state" : "translated", "value" : "Sorteo %lld" } },
-        "fr-FR" : { "stringUnit" : { "state" : "translated", "value" : "Tirage %lld" } },
-        "it"    : { "stringUnit" : { "state" : "translated", "value" : "Sorteggio %lld" } },
-        "ja"    : { "stringUnit" : { "state" : "translated", "value" : "抽選 %lld" } }
-      }
-    },
-    "Adicione o desenho de %@" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de-DE" : { "stringUnit" : { "state" : "translated", "value" : "Zeichnung von %@ hinzufügen" } },
-        "en-US" : { "stringUnit" : { "state" : "translated", "value" : "Add your drawing of %@" } },
-        "es-MX" : { "stringUnit" : { "state" : "translated", "value" : "Agrega el dibujo de %@" } },
-        "fr-FR" : { "stringUnit" : { "state" : "translated", "value" : "Ajoutez le dessin de %@" } },
-        "it"    : { "stringUnit" : { "state" : "translated", "value" : "Aggiungi il disegno di %@" } },
-        "ja"    : { "stringUnit" : { "state" : "translated", "value" : "%@の絵を追加してください" } }
-      }
-    },
-    "Adicione o desenho ✨ shiny de %@" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de-DE" : { "stringUnit" : { "state" : "translated", "value" : "Shiny-Zeichnung von %@ hinzufügen ✨" } },
-        "en-US" : { "stringUnit" : { "state" : "translated", "value" : "Add your ✨ shiny drawing of %@" } },
-        "es-MX" : { "stringUnit" : { "state" : "translated", "value" : "Agrega el dibujo ✨ shiny de %@" } },
-        "fr-FR" : { "stringUnit" : { "state" : "translated", "value" : "Ajoutez le dessin ✨ shiny de %@" } },
-        "it"    : { "stringUnit" : { "state" : "translated", "value" : "Aggiungi il disegno ✨ shiny di %@" } },
-        "ja"    : { "stringUnit" : { "state" : "translated", "value" : "%@の✨色違いの絵を追加" } }
-      }
-    },
-    "#%@ salvo!" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de-DE" : { "stringUnit" : { "state" : "translated", "value" : "#%@ gespeichert!" } },
-        "en-US" : { "stringUnit" : { "state" : "translated", "value" : "#%@ saved!" } },
-        "es-MX" : { "stringUnit" : { "state" : "translated", "value" : "¡#%@ guardado!" } },
-        "fr-FR" : { "stringUnit" : { "state" : "translated", "value" : "#%@ enregistré !" } },
-        "it"    : { "stringUnit" : { "state" : "translated", "value" : "#%@ salvato!" } },
-        "ja"    : { "stringUnit" : { "state" : "translated", "value" : "#%@ 保存完了！" } }
-      }
-    },
-    "✨ Shiny #%@ salvo!" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de-DE" : { "stringUnit" : { "state" : "translated", "value" : "✨ Shiny #%@ gespeichert!" } },
-        "en-US" : { "stringUnit" : { "state" : "translated", "value" : "✨ Shiny #%@ saved!" } },
-        "es-MX" : { "stringUnit" : { "state" : "translated", "value" : "✨ Shiny #%@ ¡guardado!" } },
-        "fr-FR" : { "stringUnit" : { "state" : "translated", "value" : "✨ Shiny #%@ enregistré !" } },
-        "it"    : { "stringUnit" : { "state" : "translated", "value" : "✨ Shiny #%@ salvato!" } },
-        "ja"    : { "stringUnit" : { "state" : "translated", "value" : "✨ 色違い #%@ 保存完了！" } }
-      }
-    },
-    "Apagar o desenho de %@?" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de-DE" : { "stringUnit" : { "state" : "translated", "value" : "Zeichnung von %@ löschen?" } },
-        "en-US" : { "stringUnit" : { "state" : "translated", "value" : "Delete the drawing of %@?" } },
-        "es-MX" : { "stringUnit" : { "state" : "translated", "value" : "¿Eliminar el dibujo de %@?" } },
-        "fr-FR" : { "stringUnit" : { "state" : "translated", "value" : "Supprimer le dessin de %@ ?" } },
-        "it"    : { "stringUnit" : { "state" : "translated", "value" : "Eliminare il disegno di %@?" } },
-        "ja"    : { "stringUnit" : { "state" : "translated", "value" : "%@の絵を削除しますか？" } }
+        "de-DE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld Pokémon verfügbar"
+          }
+        },
+        "en-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld Pokémon available"
+          }
+        },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld Pokémon disponibles"
+          }
+        },
+        "fr-FR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld Pokémon disponibles"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld Pokémon disponibili"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld 種のポケモン"
+          }
+        }
       }
     },
     "← Sortear mais" : {
       "extractionState" : "manual",
       "localizations" : {
-        "de-DE" : { "stringUnit" : { "state" : "translated", "value" : "← Mehr ziehen" } },
-        "en-US" : { "stringUnit" : { "state" : "translated", "value" : "← Draw more" } },
-        "es-MX" : { "stringUnit" : { "state" : "translated", "value" : "← Sortear más" } },
-        "fr-FR" : { "stringUnit" : { "state" : "translated", "value" : "← Tirer encore" } },
-        "it"    : { "stringUnit" : { "state" : "translated", "value" : "← Estrai ancora" } },
-        "ja"    : { "stringUnit" : { "state" : "translated", "value" : "← もっと抽選する" } }
+        "de-DE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "← Mehr ziehen"
+          }
+        },
+        "en-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "← Draw more"
+          }
+        },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "← Sortear más"
+          }
+        },
+        "fr-FR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "← Tirer encore"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "← Estrai ancora"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "← もっと抽選する"
+          }
+        }
+      }
+    },
+    "✨" : {
+
+    },
+    "✨ Shiny" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de-DE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "✨ Shiny"
+          }
+        },
+        "en-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "✨ Shiny"
+          }
+        },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "✨ Shiny"
+          }
+        },
+        "fr-FR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "✨ Shiny"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "✨ Shiny"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "✨ 色違い"
+          }
+        }
+      }
+    },
+    "✨ Shiny #%@ salvo!" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de-DE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "✨ Shiny #%@ gespeichert!"
+          }
+        },
+        "en-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "✨ Shiny #%@ saved!"
+          }
+        },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "✨ Shiny #%@ ¡guardado!"
+          }
+        },
+        "fr-FR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "✨ Shiny #%@ enregistré !"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "✨ Shiny #%@ salvato!"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "✨ 色違い #%@ 保存完了！"
+          }
+        }
       }
     },
     "Adicionar foto" : {
       "extractionState" : "manual",
       "localizations" : {
-        "de-DE" : { "stringUnit" : { "state" : "translated", "value" : "Foto hinzufügen" } },
-        "en-US" : { "stringUnit" : { "state" : "translated", "value" : "Add photo" } },
-        "es-MX" : { "stringUnit" : { "state" : "translated", "value" : "Agregar foto" } },
-        "fr-FR" : { "stringUnit" : { "state" : "translated", "value" : "Ajouter une photo" } },
-        "it"    : { "stringUnit" : { "state" : "translated", "value" : "Aggiungi foto" } },
-        "ja"    : { "stringUnit" : { "state" : "translated", "value" : "写真を追加" } }
+        "de-DE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Foto hinzufügen"
+          }
+        },
+        "en-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add photo"
+          }
+        },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Agregar foto"
+          }
+        },
+        "fr-FR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajouter une photo"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aggiungi foto"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "写真を追加"
+          }
+        }
+      }
+    },
+    "Adicione o desenho ✨ shiny" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de-DE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Shiny-Zeichnung ✨ hinzufügen"
+          }
+        },
+        "en-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add your ✨ shiny drawing"
+          }
+        },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Agrega el dibujo ✨ shiny"
+          }
+        },
+        "fr-FR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajoutez le dessin ✨ shiny"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aggiungi il disegno ✨ shiny"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "✨色違いの絵を追加してください"
+          }
+        }
+      }
+    },
+    "Adicione o desenho" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de-DE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zeichnung hinzufügen"
+          }
+        },
+        "en-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add your drawing"
+          }
+        },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Agrega el dibujo"
+          }
+        },
+        "fr-FR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajoutez le dessin"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aggiungi il disegno"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "絵を追加してください"
+          }
+        }
       }
     },
     "Adicione seu desenho" : {
       "extractionState" : "manual",
       "localizations" : {
-        "de-DE" : { "stringUnit" : { "state" : "translated", "value" : "Ihr Bild hinzufügen" } },
-        "en-US" : { "stringUnit" : { "state" : "translated", "value" : "Add your drawing" } },
-        "es-MX" : { "stringUnit" : { "state" : "translated", "value" : "Agrega tu dibujo" } },
-        "fr-FR" : { "stringUnit" : { "state" : "translated", "value" : "Ajoutez votre dessin" } },
-        "it"    : { "stringUnit" : { "state" : "translated", "value" : "Aggiungi il tuo disegno" } },
-        "ja"    : { "stringUnit" : { "state" : "translated", "value" : "絵を追加してください" } }
+        "de-DE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ihr Bild hinzufügen"
+          }
+        },
+        "en-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add your drawing"
+          }
+        },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Agrega tu dibujo"
+          }
+        },
+        "fr-FR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajoutez votre dessin"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aggiungi il tuo disegno"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "絵を追加してください"
+          }
+        }
       }
     },
     "Alterar foto" : {
       "extractionState" : "manual",
       "localizations" : {
-        "de-DE" : { "stringUnit" : { "state" : "translated", "value" : "Foto ändern" } },
-        "en-US" : { "stringUnit" : { "state" : "translated", "value" : "Change photo" } },
-        "es-MX" : { "stringUnit" : { "state" : "translated", "value" : "Cambiar foto" } },
-        "fr-FR" : { "stringUnit" : { "state" : "translated", "value" : "Changer la photo" } },
-        "it"    : { "stringUnit" : { "state" : "translated", "value" : "Cambia foto" } },
-        "ja"    : { "stringUnit" : { "state" : "translated", "value" : "写真を変更" } }
+        "de-DE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Foto ändern"
+          }
+        },
+        "en-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Change photo"
+          }
+        },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cambiar foto"
+          }
+        },
+        "fr-FR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Changer la photo"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cambia foto"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "写真を変更"
+          }
+        }
       }
     },
     "Apagar" : {
       "extractionState" : "manual",
       "localizations" : {
-        "de-DE" : { "stringUnit" : { "state" : "translated", "value" : "Löschen" } },
-        "en-US" : { "stringUnit" : { "state" : "translated", "value" : "Delete" } },
-        "es-MX" : { "stringUnit" : { "state" : "translated", "value" : "Eliminar" } },
-        "fr-FR" : { "stringUnit" : { "state" : "translated", "value" : "Supprimer" } },
-        "it"    : { "stringUnit" : { "state" : "translated", "value" : "Elimina" } },
-        "ja"    : { "stringUnit" : { "state" : "translated", "value" : "削除" } }
+        "de-DE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Löschen"
+          }
+        },
+        "en-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete"
+          }
+        },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eliminar"
+          }
+        },
+        "fr-FR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Supprimer"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elimina"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "削除"
+          }
+        }
       }
     },
     "Apagar desenho" : {
       "extractionState" : "manual",
       "localizations" : {
-        "de-DE" : { "stringUnit" : { "state" : "translated", "value" : "Zeichnung löschen" } },
-        "en-US" : { "stringUnit" : { "state" : "translated", "value" : "Delete drawing" } },
-        "es-MX" : { "stringUnit" : { "state" : "translated", "value" : "Eliminar dibujo" } },
-        "fr-FR" : { "stringUnit" : { "state" : "translated", "value" : "Supprimer le dessin" } },
-        "it"    : { "stringUnit" : { "state" : "translated", "value" : "Elimina disegno" } },
-        "ja"    : { "stringUnit" : { "state" : "translated", "value" : "絵を削除" } }
+        "de-DE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zeichnung löschen"
+          }
+        },
+        "en-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete drawing"
+          }
+        },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eliminar dibujo"
+          }
+        },
+        "fr-FR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Supprimer le dessin"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elimina disegno"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "絵を削除"
+          }
+        }
       }
     },
-    "Escolha qual você vai desenhar" : {
+    "Apagar este desenho?" : {
       "extractionState" : "manual",
       "localizations" : {
-        "de-DE" : { "stringUnit" : { "state" : "translated", "value" : "Wählen Sie zum Zeichnen" } },
-        "en-US" : { "stringUnit" : { "state" : "translated", "value" : "Choose which one to draw" } },
-        "es-MX" : { "stringUnit" : { "state" : "translated", "value" : "Elige cuál vas a dibujar" } },
-        "fr-FR" : { "stringUnit" : { "state" : "translated", "value" : "Choisissez lequel dessiner" } },
-        "it"    : { "stringUnit" : { "state" : "translated", "value" : "Scegli quale disegnare" } },
-        "ja"    : { "stringUnit" : { "state" : "translated", "value" : "どれを描くか選んでください" } }
-      }
-    },
-    "Escolher Foto" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de-DE" : { "stringUnit" : { "state" : "translated", "value" : "Foto wählen" } },
-        "en-US" : { "stringUnit" : { "state" : "translated", "value" : "Choose Photo" } },
-        "es-MX" : { "stringUnit" : { "state" : "translated", "value" : "Elegir Foto" } },
-        "fr-FR" : { "stringUnit" : { "state" : "translated", "value" : "Choisir une photo" } },
-        "it"    : { "stringUnit" : { "state" : "translated", "value" : "Scegli Foto" } },
-        "ja"    : { "stringUnit" : { "state" : "translated", "value" : "写真を選ぶ" } }
-      }
-    },
-    "Escolher este" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de-DE" : { "stringUnit" : { "state" : "translated", "value" : "Diesen wählen" } },
-        "en-US" : { "stringUnit" : { "state" : "translated", "value" : "Choose this" } },
-        "es-MX" : { "stringUnit" : { "state" : "translated", "value" : "Elegir este" } },
-        "fr-FR" : { "stringUnit" : { "state" : "translated", "value" : "Choisir celui-ci" } },
-        "it"    : { "stringUnit" : { "state" : "translated", "value" : "Scegli questo" } },
-        "ja"    : { "stringUnit" : { "state" : "translated", "value" : "これを選ぶ" } }
+        "de-DE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zeichnung löschen?"
+          }
+        },
+        "en-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete this drawing?"
+          }
+        },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Eliminar este dibujo?"
+          }
+        },
+        "fr-FR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Supprimer ce dessin ?"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eliminare questo disegno?"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "この絵を削除しますか？"
+          }
+        }
       }
     },
     "Coleção" : {
       "extractionState" : "manual",
       "localizations" : {
-        "de-DE" : { "stringUnit" : { "state" : "translated", "value" : "Sammlung" } },
-        "en-US" : { "stringUnit" : { "state" : "translated", "value" : "Collection" } },
-        "es-MX" : { "stringUnit" : { "state" : "translated", "value" : "Colección" } },
-        "fr-FR" : { "stringUnit" : { "state" : "translated", "value" : "Collection" } },
-        "it"    : { "stringUnit" : { "state" : "translated", "value" : "Raccolta" } },
-        "ja"    : { "stringUnit" : { "state" : "translated", "value" : "コレクション" } }
-      }
-    },
-    "Confirmar este Pokémon" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de-DE" : { "stringUnit" : { "state" : "translated", "value" : "Dieses Pokémon wählen" } },
-        "en-US" : { "stringUnit" : { "state" : "translated", "value" : "Confirm this Pokémon" } },
-        "es-MX" : { "stringUnit" : { "state" : "translated", "value" : "Confirmar este Pokémon" } },
-        "fr-FR" : { "stringUnit" : { "state" : "translated", "value" : "Confirmer ce Pokémon" } },
-        "it"    : { "stringUnit" : { "state" : "translated", "value" : "Conferma questo Pokémon" } },
-        "ja"    : { "stringUnit" : { "state" : "translated", "value" : "このポケモンを確定" } }
+        "de-DE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sammlung"
+          }
+        },
+        "en-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Collection"
+          }
+        },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Colección"
+          }
+        },
+        "fr-FR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Collection"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Raccolta"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "コレクション"
+          }
+        }
       }
     },
     "Confirmado!" : {
       "extractionState" : "manual",
       "localizations" : {
-        "de-DE" : { "stringUnit" : { "state" : "translated", "value" : "Bestätigt!" } },
-        "en-US" : { "stringUnit" : { "state" : "translated", "value" : "Confirmed!" } },
-        "es-MX" : { "stringUnit" : { "state" : "translated", "value" : "¡Confirmado!" } },
-        "fr-FR" : { "stringUnit" : { "state" : "translated", "value" : "Confirmé !" } },
-        "it"    : { "stringUnit" : { "state" : "translated", "value" : "Confermato!" } },
-        "ja"    : { "stringUnit" : { "state" : "translated", "value" : "確定！" } }
+        "de-DE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bestätigt!"
+          }
+        },
+        "en-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Confirmed!"
+          }
+        },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¡Confirmado!"
+          }
+        },
+        "fr-FR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Confirmé !"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Confermato!"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "確定！"
+          }
+        }
+      }
+    },
+    "Confirmar este Pokémon" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de-DE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dieses Pokémon wählen"
+          }
+        },
+        "en-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Confirm this Pokémon"
+          }
+        },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Confirmar este Pokémon"
+          }
+        },
+        "fr-FR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Confirmer ce Pokémon"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Conferma questo Pokémon"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "このポケモンを確定"
+          }
+        }
       }
     },
     "Continue desenhando!" : {
       "extractionState" : "manual",
       "localizations" : {
-        "de-DE" : { "stringUnit" : { "state" : "translated", "value" : "Weiter zeichnen!" } },
-        "en-US" : { "stringUnit" : { "state" : "translated", "value" : "Keep drawing!" } },
-        "es-MX" : { "stringUnit" : { "state" : "translated", "value" : "¡Sigue dibujando!" } },
-        "fr-FR" : { "stringUnit" : { "state" : "translated", "value" : "Continuez à dessiner !" } },
-        "it"    : { "stringUnit" : { "state" : "translated", "value" : "Continua a disegnare!" } },
-        "ja"    : { "stringUnit" : { "state" : "translated", "value" : "描き続けましょう！" } }
+        "de-DE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Weiter zeichnen!"
+          }
+        },
+        "en-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keep drawing!"
+          }
+        },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¡Sigue dibujando!"
+          }
+        },
+        "fr-FR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Continuez à dessiner !"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Continua a disegnare!"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "描き続けましょう！"
+          }
+        }
       }
     },
     "Desenhados" : {
       "extractionState" : "manual",
       "localizations" : {
-        "de-DE" : { "stringUnit" : { "state" : "translated", "value" : "Gezeichnet" } },
-        "en-US" : { "stringUnit" : { "state" : "translated", "value" : "Drawn" } },
-        "es-MX" : { "stringUnit" : { "state" : "translated", "value" : "Dibujados" } },
-        "fr-FR" : { "stringUnit" : { "state" : "translated", "value" : "Dessinés" } },
-        "it"    : { "stringUnit" : { "state" : "translated", "value" : "Disegnati" } },
-        "ja"    : { "stringUnit" : { "state" : "translated", "value" : "描いたもの" } }
+        "de-DE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gezeichnet"
+          }
+        },
+        "en-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Drawn"
+          }
+        },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dibujados"
+          }
+        },
+        "fr-FR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dessinés"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Disegnati"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "描いたもの"
+          }
+        }
+      }
+    },
+    "Escolha qual você vai desenhar" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de-DE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wählen Sie zum Zeichnen"
+          }
+        },
+        "en-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Choose which one to draw"
+          }
+        },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elige cuál vas a dibujar"
+          }
+        },
+        "fr-FR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Choisissez lequel dessiner"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scegli quale disegnare"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "どれを描くか選んでください"
+          }
+        }
+      }
+    },
+    "Escolher este" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de-DE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diesen wählen"
+          }
+        },
+        "en-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Choose this"
+          }
+        },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elegir este"
+          }
+        },
+        "fr-FR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Choisir celui-ci"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scegli questo"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "これを選ぶ"
+          }
+        }
+      }
+    },
+    "Escolher Foto" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de-DE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Foto wählen"
+          }
+        },
+        "en-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Choose Photo"
+          }
+        },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elegir Foto"
+          }
+        },
+        "fr-FR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Choisir une photo"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scegli Foto"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "写真を選ぶ"
+          }
+        }
       }
     },
     "Nenhum desenho ainda" : {
       "extractionState" : "manual",
       "localizations" : {
-        "de-DE" : { "stringUnit" : { "state" : "translated", "value" : "Noch keine Zeichnungen" } },
-        "en-US" : { "stringUnit" : { "state" : "translated", "value" : "No drawings yet" } },
-        "es-MX" : { "stringUnit" : { "state" : "translated", "value" : "Aún sin dibujos" } },
-        "fr-FR" : { "stringUnit" : { "state" : "translated", "value" : "Aucun dessin encore" } },
-        "it"    : { "stringUnit" : { "state" : "translated", "value" : "Nessun disegno ancora" } },
-        "ja"    : { "stringUnit" : { "state" : "translated", "value" : "まだ絵がありません" } }
+        "de-DE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Noch keine Zeichnungen"
+          }
+        },
+        "en-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No drawings yet"
+          }
+        },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aún sin dibujos"
+          }
+        },
+        "fr-FR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aucun dessin encore"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nessun disegno ancora"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "まだ絵がありません"
+          }
+        }
       }
     },
     "Normal" : {
       "extractionState" : "manual",
       "localizations" : {
-        "de-DE" : { "stringUnit" : { "state" : "translated", "value" : "Normal" } },
-        "en-US" : { "stringUnit" : { "state" : "translated", "value" : "Normal" } },
-        "es-MX" : { "stringUnit" : { "state" : "translated", "value" : "Normal" } },
-        "fr-FR" : { "stringUnit" : { "state" : "translated", "value" : "Normal" } },
-        "it"    : { "stringUnit" : { "state" : "translated", "value" : "Normale" } },
-        "ja"    : { "stringUnit" : { "state" : "translated", "value" : "ノーマル" } }
+        "de-DE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Normal"
+          }
+        },
+        "en-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Normal"
+          }
+        },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Normal"
+          }
+        },
+        "fr-FR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Normal"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Normale"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ノーマル"
+          }
+        }
       }
     },
     "Novo Sorteio" : {
       "extractionState" : "manual",
       "localizations" : {
-        "de-DE" : { "stringUnit" : { "state" : "translated", "value" : "Neue Runde" } },
-        "en-US" : { "stringUnit" : { "state" : "translated", "value" : "New Draw" } },
-        "es-MX" : { "stringUnit" : { "state" : "translated", "value" : "Nuevo Sorteo" } },
-        "fr-FR" : { "stringUnit" : { "state" : "translated", "value" : "Nouveau Tirage" } },
-        "it"    : { "stringUnit" : { "state" : "translated", "value" : "Nuovo Sorteggio" } },
-        "ja"    : { "stringUnit" : { "state" : "translated", "value" : "新しい抽選" } }
+        "de-DE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Neue Runde"
+          }
+        },
+        "en-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "New Draw"
+          }
+        },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nuevo Sorteo"
+          }
+        },
+        "fr-FR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nouveau Tirage"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nuovo Sorteggio"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "新しい抽選"
+          }
+        }
       }
     },
     "Pressione Sortear" : {
       "extractionState" : "manual",
       "localizations" : {
-        "de-DE" : { "stringUnit" : { "state" : "translated", "value" : "Tippen zum Ziehen" } },
-        "en-US" : { "stringUnit" : { "state" : "translated", "value" : "Press Draw" } },
-        "es-MX" : { "stringUnit" : { "state" : "translated", "value" : "Presiona Sortear" } },
-        "fr-FR" : { "stringUnit" : { "state" : "translated", "value" : "Appuyez sur Tirer" } },
-        "it"    : { "stringUnit" : { "state" : "translated", "value" : "Premi Estrai" } },
-        "ja"    : { "stringUnit" : { "state" : "translated", "value" : "タップして抽選" } }
+        "de-DE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tippen zum Ziehen"
+          }
+        },
+        "en-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Press Draw"
+          }
+        },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Presiona Sortear"
+          }
+        },
+        "fr-FR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Appuyez sur Tirer"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Premi Estrai"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "タップして抽選"
+          }
+        }
       }
     },
     "Qual você vai desenhar?" : {
       "extractionState" : "manual",
       "localizations" : {
-        "de-DE" : { "stringUnit" : { "state" : "translated", "value" : "Welches zeichnen Sie?" } },
-        "en-US" : { "stringUnit" : { "state" : "translated", "value" : "Which one will you draw?" } },
-        "es-MX" : { "stringUnit" : { "state" : "translated", "value" : "¿Cuál vas a dibujar?" } },
-        "fr-FR" : { "stringUnit" : { "state" : "translated", "value" : "Lequel allez-vous dessiner ?" } },
-        "it"    : { "stringUnit" : { "state" : "translated", "value" : "Quale disegnerai?" } },
-        "ja"    : { "stringUnit" : { "state" : "translated", "value" : "どれを描きますか？" } }
+        "de-DE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Welches zeichnen Sie?"
+          }
+        },
+        "en-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Which one will you draw?"
+          }
+        },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Cuál vas a dibujar?"
+          }
+        },
+        "fr-FR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lequel allez-vous dessiner ?"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quale disegnerai?"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "どれを描きますか？"
+          }
+        }
       }
     },
     "Re-sortear" : {
       "extractionState" : "manual",
       "localizations" : {
-        "de-DE" : { "stringUnit" : { "state" : "translated", "value" : "Nochmal" } },
-        "en-US" : { "stringUnit" : { "state" : "translated", "value" : "Re-draw" } },
-        "es-MX" : { "stringUnit" : { "state" : "translated", "value" : "Re-sortear" } },
-        "fr-FR" : { "stringUnit" : { "state" : "translated", "value" : "Retirer" } },
-        "it"    : { "stringUnit" : { "state" : "translated", "value" : "Ri-estrai" } },
-        "ja"    : { "stringUnit" : { "state" : "translated", "value" : "再抽選" } }
+        "de-DE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nochmal"
+          }
+        },
+        "en-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Re-draw"
+          }
+        },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Re-sortear"
+          }
+        },
+        "fr-FR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Retirer"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ri-estrai"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "再抽選"
+          }
+        }
       }
     },
     "Recomeçar sorteio" : {
       "extractionState" : "manual",
       "localizations" : {
-        "de-DE" : { "stringUnit" : { "state" : "translated", "value" : "Neu starten" } },
-        "en-US" : { "stringUnit" : { "state" : "translated", "value" : "Restart" } },
-        "es-MX" : { "stringUnit" : { "state" : "translated", "value" : "Reiniciar sorteo" } },
-        "fr-FR" : { "stringUnit" : { "state" : "translated", "value" : "Recommencer" } },
-        "it"    : { "stringUnit" : { "state" : "translated", "value" : "Ricomincia" } },
-        "ja"    : { "stringUnit" : { "state" : "translated", "value" : "抽選をやり直す" } }
-      }
-    },
-    "SHINY!" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "de-DE" : { "stringUnit" : { "state" : "translated", "value" : "SHINY!" } },
-        "en-US" : { "stringUnit" : { "state" : "translated", "value" : "SHINY!" } },
-        "es-MX" : { "stringUnit" : { "state" : "translated", "value" : "¡SHINY!" } },
-        "fr-FR" : { "stringUnit" : { "state" : "translated", "value" : "SHINY !" } },
-        "it"    : { "stringUnit" : { "state" : "translated", "value" : "SHINY!" } },
-        "ja"    : { "stringUnit" : { "state" : "translated", "value" : "色違い！" } }
+        "de-DE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Neu starten"
+          }
+        },
+        "en-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Restart"
+          }
+        },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reiniciar sorteo"
+          }
+        },
+        "fr-FR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recommencer"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ricomincia"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "抽選をやり直す"
+          }
+        }
       }
     },
     "Salvar Desenho" : {
       "extractionState" : "manual",
       "localizations" : {
-        "de-DE" : { "stringUnit" : { "state" : "translated", "value" : "Zeichnung speichern" } },
-        "en-US" : { "stringUnit" : { "state" : "translated", "value" : "Save Drawing" } },
-        "es-MX" : { "stringUnit" : { "state" : "translated", "value" : "Guardar Dibujo" } },
-        "fr-FR" : { "stringUnit" : { "state" : "translated", "value" : "Enregistrer le dessin" } },
-        "it"    : { "stringUnit" : { "state" : "translated", "value" : "Salva Disegno" } },
-        "ja"    : { "stringUnit" : { "state" : "translated", "value" : "絵を保存" } }
+        "de-DE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zeichnung speichern"
+          }
+        },
+        "en-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save Drawing"
+          }
+        },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Guardar Dibujo"
+          }
+        },
+        "fr-FR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enregistrer le dessin"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salva Disegno"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "絵を保存"
+          }
+        }
       }
     },
     "Salvo! Continue desenhando" : {
       "extractionState" : "manual",
       "localizations" : {
-        "de-DE" : { "stringUnit" : { "state" : "translated", "value" : "Gespeichert! Weiter" } },
-        "en-US" : { "stringUnit" : { "state" : "translated", "value" : "Saved! Keep drawing" } },
-        "es-MX" : { "stringUnit" : { "state" : "translated", "value" : "¡Guardado! Sigue dibujando" } },
-        "fr-FR" : { "stringUnit" : { "state" : "translated", "value" : "Enregistré ! Continuez" } },
-        "it"    : { "stringUnit" : { "state" : "translated", "value" : "Salvato! Continua a disegnare" } },
-        "ja"    : { "stringUnit" : { "state" : "translated", "value" : "保存完了！続けて描きましょう" } }
+        "de-DE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gespeichert! Weiter"
+          }
+        },
+        "en-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saved! Keep drawing"
+          }
+        },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¡Guardado! Sigue dibujando"
+          }
+        },
+        "fr-FR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enregistré ! Continuez"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salvato! Continua a disegnare"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "保存完了！続けて描きましょう"
+          }
+        }
       }
     },
     "Sem foto ainda" : {
       "extractionState" : "manual",
       "localizations" : {
-        "de-DE" : { "stringUnit" : { "state" : "translated", "value" : "Noch kein Foto" } },
-        "en-US" : { "stringUnit" : { "state" : "translated", "value" : "No photo yet" } },
-        "es-MX" : { "stringUnit" : { "state" : "translated", "value" : "Sin foto aún" } },
-        "fr-FR" : { "stringUnit" : { "state" : "translated", "value" : "Pas encore de photo" } },
-        "it"    : { "stringUnit" : { "state" : "translated", "value" : "Ancora nessuna foto" } },
-        "ja"    : { "stringUnit" : { "state" : "translated", "value" : "まだ写真がありません" } }
+        "de-DE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Noch kein Foto"
+          }
+        },
+        "en-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No photo yet"
+          }
+        },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sin foto aún"
+          }
+        },
+        "fr-FR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pas encore de photo"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ancora nessuna foto"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "まだ写真がありません"
+          }
+        }
       }
     },
     "Shiny" : {
       "extractionState" : "manual",
       "localizations" : {
-        "de-DE" : { "stringUnit" : { "state" : "translated", "value" : "Shiny" } },
-        "en-US" : { "stringUnit" : { "state" : "translated", "value" : "Shiny" } },
-        "es-MX" : { "stringUnit" : { "state" : "translated", "value" : "Shiny" } },
-        "fr-FR" : { "stringUnit" : { "state" : "translated", "value" : "Shiny" } },
-        "it"    : { "stringUnit" : { "state" : "translated", "value" : "Shiny" } },
-        "ja"    : { "stringUnit" : { "state" : "translated", "value" : "色違い" } }
+        "de-DE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Shiny"
+          }
+        },
+        "en-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Shiny"
+          }
+        },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Shiny"
+          }
+        },
+        "fr-FR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Shiny"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Shiny"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "色違い"
+          }
+        }
+      }
+    },
+    "SHINY!" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de-DE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SHINY!"
+          }
+        },
+        "en-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SHINY!"
+          }
+        },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¡SHINY!"
+          }
+        },
+        "fr-FR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SHINY !"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SHINY!"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "色違い！"
+          }
+        }
       }
     },
     "Sorteador" : {
       "extractionState" : "manual",
       "localizations" : {
-        "de-DE" : { "stringUnit" : { "state" : "translated", "value" : "Ziehung" } },
-        "en-US" : { "stringUnit" : { "state" : "translated", "value" : "Draw" } },
-        "es-MX" : { "stringUnit" : { "state" : "translated", "value" : "Sorteo" } },
-        "fr-FR" : { "stringUnit" : { "state" : "translated", "value" : "Tirage" } },
-        "it"    : { "stringUnit" : { "state" : "translated", "value" : "Sorteggio" } },
-        "ja"    : { "stringUnit" : { "state" : "translated", "value" : "抽選" } }
+        "de-DE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ziehung"
+          }
+        },
+        "en-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Draw"
+          }
+        },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sorteo"
+          }
+        },
+        "fr-FR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tirage"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sorteggio"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "抽選"
+          }
+        }
       }
     },
     "Sortear" : {
       "extractionState" : "manual",
       "localizations" : {
-        "de-DE" : { "stringUnit" : { "state" : "translated", "value" : "Ziehen" } },
-        "en-US" : { "stringUnit" : { "state" : "translated", "value" : "Draw" } },
-        "es-MX" : { "stringUnit" : { "state" : "translated", "value" : "Sortear" } },
-        "fr-FR" : { "stringUnit" : { "state" : "translated", "value" : "Tirer" } },
-        "it"    : { "stringUnit" : { "state" : "translated", "value" : "Estrai" } },
-        "ja"    : { "stringUnit" : { "state" : "translated", "value" : "抽選する" } }
+        "de-DE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ziehen"
+          }
+        },
+        "en-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Draw"
+          }
+        },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sortear"
+          }
+        },
+        "fr-FR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tirer"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Estrai"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "抽選する"
+          }
+        }
       }
     },
     "Sorteie e salve seu primeiro Pokémon!" : {
       "extractionState" : "manual",
       "localizations" : {
-        "de-DE" : { "stringUnit" : { "state" : "translated", "value" : "Erstes Pokémon ziehen und speichern!" } },
-        "en-US" : { "stringUnit" : { "state" : "translated", "value" : "Draw and save your first Pokémon!" } },
-        "es-MX" : { "stringUnit" : { "state" : "translated", "value" : "¡Sortea y guarda tu primer Pokémon!" } },
-        "fr-FR" : { "stringUnit" : { "state" : "translated", "value" : "Tirez et enregistrez votre premier Pokémon !" } },
-        "it"    : { "stringUnit" : { "state" : "translated", "value" : "Estrai e salva il tuo primo Pokémon!" } },
-        "ja"    : { "stringUnit" : { "state" : "translated", "value" : "最初のポケモンを抽選して保存しよう！" } }
+        "de-DE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erstes Pokémon ziehen und speichern!"
+          }
+        },
+        "en-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Draw and save your first Pokémon!"
+          }
+        },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¡Sortea y guarda tu primer Pokémon!"
+          }
+        },
+        "fr-FR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tirez et enregistrez votre premier Pokémon !"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Estrai e salva il tuo primo Pokémon!"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "最初のポケモンを抽選して保存しよう！"
+          }
+        }
+      }
+    },
+    "Sorteio %lld" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de-DE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zug %lld"
+          }
+        },
+        "en-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Draw %lld"
+          }
+        },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sorteo %lld"
+          }
+        },
+        "fr-FR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tirage %lld"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sorteggio %lld"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "抽選 %lld"
+          }
+        }
       }
     },
     "Todos" : {
       "extractionState" : "manual",
       "localizations" : {
-        "de-DE" : { "stringUnit" : { "state" : "translated", "value" : "Alle" } },
-        "en-US" : { "stringUnit" : { "state" : "translated", "value" : "All" } },
-        "es-MX" : { "stringUnit" : { "state" : "translated", "value" : "Todos" } },
-        "fr-FR" : { "stringUnit" : { "state" : "translated", "value" : "Tous" } },
-        "it"    : { "stringUnit" : { "state" : "translated", "value" : "Tutti" } },
-        "ja"    : { "stringUnit" : { "state" : "translated", "value" : "すべて" } }
+        "de-DE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alle"
+          }
+        },
+        "en-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "All"
+          }
+        },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Todos"
+          }
+        },
+        "fr-FR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tous"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tutti"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "すべて"
+          }
+        }
       }
     },
     "Toque Re-sortear para tentar de novo" : {
       "extractionState" : "manual",
       "localizations" : {
-        "de-DE" : { "stringUnit" : { "state" : "translated", "value" : "Nochmal tippen zum Wiederholen" } },
-        "en-US" : { "stringUnit" : { "state" : "translated", "value" : "Tap Re-draw to try again" } },
-        "es-MX" : { "stringUnit" : { "state" : "translated", "value" : "Toca Re-sortear para intentar de nuevo" } },
-        "fr-FR" : { "stringUnit" : { "state" : "translated", "value" : "Appuyez sur Retirer pour réessayer" } },
-        "it"    : { "stringUnit" : { "state" : "translated", "value" : "Tocca Ri-estrai per riprovare" } },
-        "ja"    : { "stringUnit" : { "state" : "translated", "value" : "再抽選をタップしてやり直す" } }
+        "de-DE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nochmal tippen zum Wiederholen"
+          }
+        },
+        "en-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tap Re-draw to try again"
+          }
+        },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Toca Re-sortear para intentar de nuevo"
+          }
+        },
+        "fr-FR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Appuyez sur Retirer pour réessayer"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tocca Ri-estrai per riprovare"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "再抽選をタップしてやり直す"
+          }
+        }
       }
     },
     "Último sorteio usado" : {
       "extractionState" : "manual",
       "localizations" : {
-        "de-DE" : { "stringUnit" : { "state" : "translated", "value" : "Letzter Zug verbraucht" } },
-        "en-US" : { "stringUnit" : { "state" : "translated", "value" : "Last draw used" } },
-        "es-MX" : { "stringUnit" : { "state" : "translated", "value" : "Último sorteo usado" } },
-        "fr-FR" : { "stringUnit" : { "state" : "translated", "value" : "Dernier tirage utilisé" } },
-        "it"    : { "stringUnit" : { "state" : "translated", "value" : "Ultimo sorteggio usato" } },
-        "ja"    : { "stringUnit" : { "state" : "translated", "value" : "最後の抽選です" } }
+        "de-DE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Letzter Zug verbraucht"
+          }
+        },
+        "en-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Last draw used"
+          }
+        },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Último sorteo usado"
+          }
+        },
+        "fr-FR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dernier tirage utilisé"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ultimo sorteggio usato"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "最後の抽選です"
+          }
+        }
       }
     },
-    "✨ Shiny" : {
+    "Ver sorteios anteriores (%lld)" : {
       "extractionState" : "manual",
       "localizations" : {
-        "de-DE" : { "stringUnit" : { "state" : "translated", "value" : "✨ Shiny" } },
-        "en-US" : { "stringUnit" : { "state" : "translated", "value" : "✨ Shiny" } },
-        "es-MX" : { "stringUnit" : { "state" : "translated", "value" : "✨ Shiny" } },
-        "fr-FR" : { "stringUnit" : { "state" : "translated", "value" : "✨ Shiny" } },
-        "it"    : { "stringUnit" : { "state" : "translated", "value" : "✨ Shiny" } },
-        "ja"    : { "stringUnit" : { "state" : "translated", "value" : "✨ 色違い" } }
+        "de-DE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Frühere Züge (%lld)"
+          }
+        },
+        "en-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "See previous draws (%lld)"
+          }
+        },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ver sorteos anteriores (%lld)"
+          }
+        },
+        "fr-FR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tirages précédents (%lld)"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sorteggi precedenti (%lld)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "過去の抽選（%lld）"
+          }
+        }
       }
     }
   },
