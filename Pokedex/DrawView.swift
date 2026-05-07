@@ -171,6 +171,10 @@ struct DrawView: View {
                         .foregroundStyle(PokeTheme.yellow)
                         .scaleEffect(rollScale)
                         .animation(.spring(response: 0.3, dampingFraction: 0.5), value: rollScale)
+                    Text(latest.pokemon.name)
+                        .font(.title3.bold())
+                        .foregroundStyle(.white)
+                        .multilineTextAlignment(.center)
                     Text(canDraw ? "Toque Re-sortear para tentar de novo" : "Último sorteio usado")
                         .font(.caption)
                         .foregroundStyle(Color.white.opacity(0.3))
@@ -302,6 +306,9 @@ struct DrawView: View {
                 Text("#\(formatId(r.pokemon.id))")
                     .font(.system(size: 48, weight: .black, design: .monospaced))
                     .foregroundStyle(PokeTheme.yellow)
+                Text(r.pokemon.name)
+                    .font(.title3.bold())
+                    .foregroundStyle(.white)
                 Label("Confirmado!", systemImage: "checkmark.circle.fill")
                     .font(.subheadline.bold())
                     .foregroundStyle(.green)
@@ -341,12 +348,12 @@ struct DrawView: View {
             } else {
                 if let r = confirmedResult {
                     if r.isShiny {
-                        Text("Adicione o desenho ✨ shiny")
+                        Text("Adicione o desenho ✨ shiny de \(r.pokemon.name)")
                             .font(.subheadline)
                             .foregroundStyle(Color.white.opacity(0.45))
                             .multilineTextAlignment(.center)
                     } else {
-                        Text("Adicione o desenho")
+                        Text("Adicione o desenho de \(r.pokemon.name)")
                             .font(.subheadline)
                             .foregroundStyle(Color.white.opacity(0.45))
                             .multilineTextAlignment(.center)
@@ -511,6 +518,9 @@ struct HistoryCard: View {
                             .clipShape(Capsule())
                     }
                 }
+                Text(result.pokemon.name)
+                    .font(.subheadline.bold())
+                    .foregroundStyle(.white)
             }
             Spacer()
             Text("Sorteio \(result.drawNumber)")

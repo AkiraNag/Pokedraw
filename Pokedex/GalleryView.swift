@@ -242,7 +242,7 @@ struct GalleryCell: View {
                 }
             }
         }
-        .confirmationDialog("Apagar este desenho?",
+        .confirmationDialog("Apagar o desenho de \(pokemon.name)?",
                             isPresented: $showDeleteConfirm, titleVisibility: .visible) {
             Button("Apagar", role: .destructive) {
                 store.deleteEntry(pokemonId: pokemon.id, isShiny: isShinyGallery)
@@ -304,7 +304,7 @@ struct CellActionSheet: View {
             }
         }
         .onChange(of: selectedPhoto) { loadAndSave() }
-        .confirmationDialog("Apagar este desenho?",
+        .confirmationDialog("Apagar o desenho de \(pokemon.name)?",
                             isPresented: $showDeleteConfirm, titleVisibility: .visible) {
             Button("Apagar", role: .destructive) {
                 store.deleteEntry(pokemonId: pokemon.id, isShiny: isShiny)
@@ -332,6 +332,8 @@ struct CellActionSheet: View {
                             .clipShape(Capsule())
                     }
                 }
+                Text(pokemon.name)
+                    .font(.headline).foregroundStyle(.white)
             }
             Spacer()
             Button { dismiss() } label: {
