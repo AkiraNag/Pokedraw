@@ -101,11 +101,11 @@ struct DrawView: View {
 
     private var headerSubtitle: String {
         switch phase {
-        case .idle:      return "\(PokemonData.all.count) Pokémon disponíveis"
-        case .drawing:   return "\(history.count) de \(maxDraws) sorteios realizados"
-        case .choosing:  return "Escolha qual você vai desenhar"
-        case .uploading: return "Adicione seu desenho"
-        case .saved:     return "Salvo! Continue desenhando"
+        case .idle:      return String(localized: "\(PokemonData.all.count) Pokémon disponíveis")
+        case .drawing:   return String(localized: "\(history.count) de \(maxDraws) sorteios realizados")
+        case .choosing:  return String(localized: "Escolha qual você vai desenhar")
+        case .uploading: return String(localized: "Adicione seu desenho")
+        case .saved:     return String(localized: "Salvo! Continue desenhando")
         }
     }
 
@@ -239,7 +239,7 @@ struct DrawView: View {
         }
     }
 
-    private func sortButton(label: String, icon: String) -> some View {
+    private func sortButton(label: LocalizedStringKey, icon: String) -> some View {
         Button(action: draw) {
             HStack(spacing: 10) {
                 Image(systemName: icon).font(.body.bold())
@@ -347,10 +347,17 @@ struct DrawView: View {
                 }
             } else {
                 if let r = confirmedResult {
-                    Text("Adicione o desenho\(r.isShiny ? " ✨ shiny" : "") de \(r.pokemon.name)")
-                        .font(.subheadline)
-                        .foregroundStyle(Color.white.opacity(0.45))
-                        .multilineTextAlignment(.center)
+                    if r.isShiny {
+                        Text("Adicione o desenho ✨ shiny de \(r.pokemon.name)")
+                            .font(.subheadline)
+                            .foregroundStyle(Color.white.opacity(0.45))
+                            .multilineTextAlignment(.center)
+                    } else {
+                        Text("Adicione o desenho de \(r.pokemon.name)")
+                            .font(.subheadline)
+                            .foregroundStyle(Color.white.opacity(0.45))
+                            .multilineTextAlignment(.center)
+                    }
                 }
 
                 PhotosPicker(selection: $selectedPhoto, matching: .images) {
@@ -379,8 +386,13 @@ struct DrawView: View {
                 .font(.system(size: 52))
                 .foregroundStyle(confirmedResult?.isShiny == true ? PokeTheme.yellow : .green)
             if let r = confirmedResult {
-                Text("\(r.isShiny ? "✨ Shiny " : "")#\(formatId(r.pokemon.id)) salvo!")
-                    .font(.headline).foregroundStyle(.white)
+                if r.isShiny {
+                    Text("✨ Shiny #\(formatId(r.pokemon.id)) salvo!")
+                        .font(.headline).foregroundStyle(.white)
+                } else {
+                    Text("#\(formatId(r.pokemon.id)) salvo!")
+                        .font(.headline).foregroundStyle(.white)
+                }
             }
             Text("Continue desenhando!")
                 .font(.subheadline).foregroundStyle(Color.white.opacity(0.4))
