@@ -11,7 +11,7 @@ enum GalleryFilter: CaseIterable {
         case .drawn: return "pencil"
         }
     }
-    var label: String {
+    var label: LocalizedStringKey {
         switch self {
         case .all:   return "Todos"
         case .drawn: return "Desenhados"
@@ -120,8 +120,11 @@ struct GalleryView: View {
                     Button { withAnimation(.easeInOut(duration: 0.2)) { showShiny = shiny } } label: {
                         HStack(spacing: 4) {
                             if shiny { Text("✨").font(.caption) }
-                            Text(shiny ? "Shiny" : "Normal")
-                                .fontWeight(.semibold).font(.subheadline)
+                            if shiny {
+                                Text("Shiny").fontWeight(.semibold).font(.subheadline)
+                            } else {
+                                Text("Normal").fontWeight(.semibold).font(.subheadline)
+                            }
                         }
                         .frame(maxWidth: .infinity)
                         .padding(.vertical, 8)
