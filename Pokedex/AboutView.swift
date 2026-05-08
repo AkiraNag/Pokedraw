@@ -40,17 +40,7 @@ struct AboutView: View {
 
     private var linksSection: some View {
         VStack(spacing: 12) {
-            LinkRow(
-                icon: "square.stack.3d.up.fill",
-                label: "Meus apps",
-                url: "https://apps.apple.com/br/developer/akira-jensen/id1810781469"
-            )
-            // Instagram
-            // LinkRow(
-            //     icon: "camera.fill",
-            //     label: "@username",
-            //     url: "https://instagram.com/username"
-            // )
+            // Links serão adicionados aqui
         }
     }
 }
