@@ -56,26 +56,26 @@
         "ja"    : { "stringUnit" : { "state" : "translated", "value" : "抽選 %lld" } }
       }
     },
-    "Adicione o desenho de %@" : {
+    "Adicione o desenho" : {
       "extractionState" : "manual",
       "localizations" : {
-        "de-DE" : { "stringUnit" : { "state" : "translated", "value" : "Zeichnung von %@ hinzufügen" } },
-        "en-US" : { "stringUnit" : { "state" : "translated", "value" : "Add your drawing of %@" } },
-        "es-MX" : { "stringUnit" : { "state" : "translated", "value" : "Agrega el dibujo de %@" } },
-        "fr-FR" : { "stringUnit" : { "state" : "translated", "value" : "Ajoutez le dessin de %@" } },
-        "it"    : { "stringUnit" : { "state" : "translated", "value" : "Aggiungi il disegno di %@" } },
-        "ja"    : { "stringUnit" : { "state" : "translated", "value" : "%@の絵を追加してください" } }
+        "de-DE" : { "stringUnit" : { "state" : "translated", "value" : "Zeichnung hinzufügen" } },
+        "en-US" : { "stringUnit" : { "state" : "translated", "value" : "Add your drawing" } },
+        "es-MX" : { "stringUnit" : { "state" : "translated", "value" : "Agrega el dibujo" } },
+        "fr-FR" : { "stringUnit" : { "state" : "translated", "value" : "Ajoutez le dessin" } },
+        "it"    : { "stringUnit" : { "state" : "translated", "value" : "Aggiungi il disegno" } },
+        "ja"    : { "stringUnit" : { "state" : "translated", "value" : "絵を追加してください" } }
       }
     },
-    "Adicione o desenho ✨ shiny de %@" : {
+    "Adicione o desenho ✨ shiny" : {
       "extractionState" : "manual",
       "localizations" : {
-        "de-DE" : { "stringUnit" : { "state" : "translated", "value" : "Shiny-Zeichnung von %@ hinzufügen ✨" } },
-        "en-US" : { "stringUnit" : { "state" : "translated", "value" : "Add your ✨ shiny drawing of %@" } },
-        "es-MX" : { "stringUnit" : { "state" : "translated", "value" : "Agrega el dibujo ✨ shiny de %@" } },
-        "fr-FR" : { "stringUnit" : { "state" : "translated", "value" : "Ajoutez le dessin ✨ shiny de %@" } },
-        "it"    : { "stringUnit" : { "state" : "translated", "value" : "Aggiungi il disegno ✨ shiny di %@" } },
-        "ja"    : { "stringUnit" : { "state" : "translated", "value" : "%@の✨色違いの絵を追加" } }
+        "de-DE" : { "stringUnit" : { "state" : "translated", "value" : "Shiny-Zeichnung ✨ hinzufügen" } },
+        "en-US" : { "stringUnit" : { "state" : "translated", "value" : "Add your ✨ shiny drawing" } },
+        "es-MX" : { "stringUnit" : { "state" : "translated", "value" : "Agrega el dibujo ✨ shiny" } },
+        "fr-FR" : { "stringUnit" : { "state" : "translated", "value" : "Ajoutez le dessin ✨ shiny" } },
+        "it"    : { "stringUnit" : { "state" : "translated", "value" : "Aggiungi il disegno ✨ shiny" } },
+        "ja"    : { "stringUnit" : { "state" : "translated", "value" : "✨色違いの絵を追加してください" } }
       }
     },
     "#%@ salvo!" : {
@@ -100,15 +100,15 @@
         "ja"    : { "stringUnit" : { "state" : "translated", "value" : "✨ 色違い #%@ 保存完了！" } }
       }
     },
-    "Apagar o desenho de %@?" : {
+    "Apagar este desenho?" : {
       "extractionState" : "manual",
       "localizations" : {
-        "de-DE" : { "stringUnit" : { "state" : "translated", "value" : "Zeichnung von %@ löschen?" } },
-        "en-US" : { "stringUnit" : { "state" : "translated", "value" : "Delete the drawing of %@?" } },
-        "es-MX" : { "stringUnit" : { "state" : "translated", "value" : "¿Eliminar el dibujo de %@?" } },
-        "fr-FR" : { "stringUnit" : { "state" : "translated", "value" : "Supprimer le dessin de %@ ?" } },
-        "it"    : { "stringUnit" : { "state" : "translated", "value" : "Eliminare il disegno di %@?" } },
-        "ja"    : { "stringUnit" : { "state" : "translated", "value" : "%@の絵を削除しますか？" } }
+        "de-DE" : { "stringUnit" : { "state" : "translated", "value" : "Zeichnung löschen?" } },
+        "en-US" : { "stringUnit" : { "state" : "translated", "value" : "Delete this drawing?" } },
+        "es-MX" : { "stringUnit" : { "state" : "translated", "value" : "¿Eliminar este dibujo?" } },
+        "fr-FR" : { "stringUnit" : { "state" : "translated", "value" : "Supprimer ce dessin ?" } },
+        "it"    : { "stringUnit" : { "state" : "translated", "value" : "Eliminare questo disegno?" } },
+        "ja"    : { "stringUnit" : { "state" : "translated", "value" : "この絵を削除しますか？" } }
       }
     },
     "← Sortear mais" : {
